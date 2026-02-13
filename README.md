@@ -1,4 +1,4 @@
-# Research CLI (Gemini)
+# Generative AI CLI App using Google (Gemini)
 
 A small CLI app that lets users register/login and run three Gemini-powered tasks:
 sentiment analysis, language translation, and language detection.
@@ -48,7 +48,7 @@ Follow the on-screen prompts to register/login and choose a task.
 .
 readme.md
 requirements.txt
-ai-main.py
+ai_main.py
 ```
 
 ## Notes
