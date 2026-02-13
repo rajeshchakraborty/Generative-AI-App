@@ -2,7 +2,7 @@ import os
 
 import google.genai as genai
 
-class researchModel:
+class AiModel:
     MODEL_NAME = "gemini-3-flash-preview"
 
     def get_client(self):
@@ -17,7 +17,7 @@ class researchModel:
             return None
         
 
-class ResearchApp(researchModel):
+class ResearchApp(AiModel):
     def __init__(self):
         self.__database = {}
         self.first_manu()
